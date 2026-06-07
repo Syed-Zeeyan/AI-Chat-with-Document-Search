@@ -548,19 +548,16 @@ The frontend is deployed on [Vercel](https://vercel.com).
 
 ### PDF Upload
 
-![PDF Upload](./screenshots/Screenshot 2026-06-08 003942.png)
+![PDF Upload](./screenshots/pdf-upload.png)
 
 ### Chat Interface
-
-![Chat Interface](./screenshots/Screenshot 2026-06-08 004005.png)
+![Chat Interface](./screenshots/chat-interface.png)
 
 ### Citation Viewer
-
-![Citation Viewer](./screenshots/Screenshot 2026-06-08 004022.png)
+![Citation Viewer](./screenshots/citation-viewer.png)
 
 ### Chunk Inspector
-
-![Chunk Inspector](./screenshots/Screenshot 2026-06-08 004039.png)
+![Chunk Inspector](./screenshots/chunk-inspector.png)
 
 ---
 
