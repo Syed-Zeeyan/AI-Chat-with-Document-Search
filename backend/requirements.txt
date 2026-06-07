@@ -1,0 +1,31 @@
+# ── Web Framework ───────────────────────────────────────────────────────────────
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.28.0,<1.0.0
+python-multipart>=0.0.9,<1.0.0
+
+# ── Data Validation ──────────────────────────────────────────────────────────────
+pydantic>=2.6.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+
+# ── PDF Processing ───────────────────────────────────────────────────────────────
+pdfplumber>=0.11.0,<1.0.0
+
+# ── Embeddings (CRITICAL: torch must be >=2.4 for transformers>=4.45) ────────────
+# transformers 5.x requires torch >= 2.4; sentence-transformers 5.x pulls transformers 5.x.
+# Pin sentence-transformers to 3.x which pulls stable transformers 4.x + torch 2.x.
+torch>=2.4.0,<3.0.0
+transformers>=4.45.0,<5.0.0
+sentence-transformers>=3.0.0,<4.0.0
+
+# ── Vector Database ──────────────────────────────────────────────────────────────
+chromadb>=0.5.0,<2.0.0
+
+# ── LLM Integration ──────────────────────────────────────────────────────────────
+# google-generativeai is deprecated. Migrated to the new google-genai SDK.
+google-genai>=1.0.0,<3.0.0
+
+# ── HTTP Client ──────────────────────────────────────────────────────────────────
+httpx>=0.27.0,<1.0.0
+
+# ── Testing ──────────────────────────────────────────────────────────────────────
+pytest>=8.0.0,<9.0.0
